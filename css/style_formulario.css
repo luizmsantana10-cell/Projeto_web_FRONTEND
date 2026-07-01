@@ -1,3 +1,4 @@
+/*
 #div-form{
     width: 500px;
     min-height: 600px;
@@ -24,3 +25,725 @@ label{
     letter-spacing: 5px;
     font-size: 1.5em;
 }
+
+.input-vlr01{
+    width: 400px;
+}
+
+.input-vlr01, .input-vlr02{
+    height: 40px;
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+.input-vlr02{
+    width: 250px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    resize: none;
+}
+
+#div-btns{
+    border: solid 5px rgb(234, 134, 243);
+    margin: 20px 0px;
+
+}
+
+button{
+    width: 140px;
+    height: 30px;
+   cursor: pointer;
+}
+*/
+/* =====================================================
+   CAPITÃO PÁTRIA - HERO STYLE
+   The Boys / Super Hero / Premium UI
+   ===================================================== */
+
+
+   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+
+
+   *{
+   
+       margin:0;
+       padding:0;
+       box-sizing:border-box;
+   
+       font-family:'Oswald', Arial, sans-serif;
+   
+   }
+   
+   
+   
+   body{
+   
+   
+       min-height:100vh;
+   
+   
+       background:
+   
+   
+       radial-gradient(
+           circle at top,
+           #173b8f,
+           #050505 60%
+       );
+   
+   
+   
+       color:white;
+   
+   
+   
+       overflow-x:hidden;
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      MENU SUPER HERO
+      ========================= */
+   
+   
+   #links{
+   
+   
+       width:90%;
+   
+   
+       margin:25px auto;
+   
+   
+   
+       padding:18px;
+   
+   
+   
+       background:
+   
+   
+       linear-gradient(
+           135deg,
+           rgba(10,20,60,.95),
+           rgba(0,0,0,.95)
+       );
+   
+   
+   
+       border:
+   
+   
+       2px solid #d4af37;
+   
+   
+   
+       border-radius:12px;
+   
+   
+   
+       text-align:center;
+   
+   
+   
+       box-shadow:
+   
+   
+       0 0 20px #d4af37;
+   
+   
+   
+   }
+   
+   
+   
+   #links a{
+   
+   
+       color:#ffffff;
+   
+   
+   
+       text-decoration:none;
+   
+   
+   
+       font-size:18px;
+   
+   
+   
+       margin:8px;
+   
+   
+   
+       transition:.3s;
+   
+   
+   
+   }
+   
+   
+   
+   #links a:hover{
+   
+   
+       color:#ff2020;
+   
+   
+   
+       text-shadow:
+   
+   
+       0 0 15px red;
+   
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      PAINEL PRINCIPAL
+      ========================= */
+   
+   
+   #div-form{
+   
+   
+       width:540px;
+   
+   
+   
+       margin:50px auto;
+   
+   
+   
+       padding:40px;
+   
+   
+   
+       background:
+   
+   
+       linear-gradient(
+           145deg,
+           rgba(15,30,70,.95),
+           rgba(0,0,0,.95)
+       );
+   
+   
+   
+       border:
+   
+   
+       3px solid #d4af37;
+   
+   
+   
+       border-radius:18px;
+   
+   
+   
+       box-shadow:
+   
+   
+       0 0 40px #001aff,
+   
+   
+       0 0 60px rgba(255,0,0,.4),
+   
+   
+       inset 0 0 30px black;
+   
+   
+   
+       position:relative;
+   
+   
+   }
+   
+   
+   
+   /* Faixa dourada */
+   
+   
+   #div-form::before{
+   
+   
+       content:"HOMELAND SECURITY SYSTEM";
+   
+   
+       display:block;
+   
+   
+   
+       text-align:center;
+   
+   
+   
+       color:#d4af37;
+   
+   
+   
+       letter-spacing:4px;
+   
+   
+   
+       font-size:12px;
+   
+   
+   
+       margin-bottom:15px;
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      TITULO
+      ========================= */
+   
+   
+   h3{
+   
+   
+       text-align:center;
+   
+   
+   
+       font-size:42px;
+   
+   
+   
+       letter-spacing:6px;
+   
+   
+   
+       color:white;
+   
+   
+   
+       text-transform:uppercase;
+   
+   
+   
+       margin-bottom:30px;
+   
+   
+   
+       text-shadow:
+   
+   
+       0 0 10px #fff,
+   
+   
+       0 0 25px #ff0000;
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      LABEL
+      ========================= */
+   
+   
+   label{
+   
+   
+       display:block;
+   
+   
+   
+       margin-top:18px;
+   
+   
+   
+       margin-bottom:7px;
+   
+   
+   
+       color:#d4af37;
+   
+   
+   
+       text-transform:uppercase;
+   
+   
+   
+       font-weight:bold;
+   
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      CAMPOS
+      ========================= */
+   
+   
+   .input-vlr01,
+   .input-vlr02,
+   textarea,
+   select{
+   
+   
+       width:100%;
+   
+   
+   
+       padding:14px;
+   
+   
+   
+       background:#050505;
+   
+   
+   
+       color:white;
+   
+   
+   
+       border:
+   
+   
+       2px solid #1746ff;
+   
+   
+   
+       border-radius:8px;
+   
+   
+   
+       outline:none;
+   
+   
+   
+       font-size:16px;
+   
+   
+   
+       transition:.3s;
+   
+   
+   
+   }
+   
+   
+   
+   .input-vlr01:hover,
+   .input-vlr02:hover,
+   textarea:hover,
+   select:hover{
+   
+   
+       border-color:#d4af37;
+   
+   
+   
+   }
+   
+   
+   
+   .input-vlr01:focus,
+   .input-vlr02:focus,
+   textarea:focus,
+   select:focus{
+   
+   
+       border-color:red;
+   
+   
+   
+       box-shadow:
+   
+   
+       0 0 20px red;
+   
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      OPÇÕES
+      ========================= */
+   
+   
+   .input-op{
+   
+   
+       accent-color:red;
+   
+   
+   
+       transform:scale(1.2);
+   
+   
+   
+       margin:10px;
+   
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      TEXTO
+      ========================= */
+   
+   
+   textarea{
+   
+   
+       height:130px;
+   
+   
+   
+       resize:none;
+   
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      BOTÕES
+      ========================= */
+   
+   
+   #div-btns{
+   
+   
+       margin-top:35px;
+   
+   
+   
+       display:flex;
+   
+   
+   
+       justify-content:space-between;
+   
+   
+   
+   }
+   
+   
+   
+   button{
+   
+   
+       width:30%;
+   
+   
+   
+       padding:14px;
+   
+   
+   
+       cursor:pointer;
+   
+   
+   
+       border-radius:10px;
+   
+   
+   
+       border:
+   
+   
+       2px solid #d4af37;
+   
+   
+   
+       background:
+   
+   
+       linear-gradient(
+           135deg,
+           #b00000,
+           #ff2020
+       );
+   
+   
+   
+       color:white;
+   
+   
+   
+       font-weight:bold;
+   
+   
+   
+       text-transform:uppercase;
+   
+   
+   
+       box-shadow:
+   
+   
+       0 0 15px red;
+   
+   
+   
+       transition:.3s;
+   
+   
+   
+   }
+   
+   
+   
+   button:hover{
+   
+   
+       transform:
+   
+   
+       translateY(-5px);
+   
+   
+   
+       box-shadow:
+   
+   
+       0 0 30px red;
+   
+   
+   
+   }
+   
+   
+   
+   /* BOTÃO LIMPAR */
+   
+   
+   #btn-limpar{
+   
+   
+       background:
+   
+   
+       linear-gradient(
+           135deg,
+           #111,
+           #333
+       );
+   
+   
+   
+   }
+   
+   
+   
+   /* BOTÃO EXTRA */
+   
+   
+   #btn{
+   
+   
+       background:
+   
+   
+       linear-gradient(
+           135deg,
+           #001aff,
+           #003cff
+       );
+   
+   
+   
+       box-shadow:
+   
+   
+       0 0 20px blue;
+   
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      SELECT
+      ========================= */
+   
+   
+   option{
+   
+   
+       background:#050505;
+   
+   
+   
+   }
+   
+   
+   
+   /* =========================
+      RESPONSIVO
+      ========================= */
+   
+   
+   @media(max-width:600px){
+   
+   
+       #div-form{
+   
+   
+           width:90%;
+   
+   
+           padding:25px;
+   
+   
+       }
+   
+   
+   
+       #div-btns{
+   
+   
+           flex-direction:column;
+   
+   
+   
+           gap:15px;
+   
+   
+   
+       }
+   
+   
+   
+       button{
+   
+   
+           width:100%;
+   
+   
+       }
+   
+   
+   }
